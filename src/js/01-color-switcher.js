@@ -20,4 +20,4 @@ stopButton.addEventListener('click', () => {
     startButton.disabled = true;
     stopButton.disabled = false;
     clearInterval(changeInterval);
-}); 
+});
