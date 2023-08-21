@@ -12,12 +12,14 @@ function changeColorRandom() {
 } 
 
 startButton.addEventListener('click', () => {
-    startButton.disabled = false;
-    stopButton.disabled = true;
-    changeInterval = setInterval(changeColorRandom, 1000);
-});
-stopButton.addEventListener('click', () => {
     startButton.disabled = true;
     stopButton.disabled = false;
+    changeInterval = setInterval(changeColorRandom, 1000);
+});
+
+stopButton.addEventListener('click', () => {
+    startButton.disabled = false;
+    stopButton.disabled = true;
     clearInterval(changeInterval);
 });
+
