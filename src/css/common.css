@@ -7,7 +7,7 @@ body {
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #487e51;
+  background-color: rgb(92, 142, 88);
   color: #212121;
   line-height: 1.5;
 }
@@ -24,7 +24,7 @@ img {
 }
 .field{
     background-color: oldlace;
-    color: black;
+    color:black;
     width: 150px;
     height: 40px;
     border-radius: 4px;
